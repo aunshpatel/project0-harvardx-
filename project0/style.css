@@ -1,0 +1,82 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+body{
+    background-color: #87CEFA;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:bold;
+    color:red;
+}
+
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 31px;
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    font-size: 21px;
+}
+h5{
+    font-size: 16px;
+}
+h6{
+    font-size: 12px;
+}
+table,tr,td,th {
+    border:1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    text-decoration: underline;
+    font-weight: bold;
+}
+table{
+    width:100%;
+}
+.link:hover{
+    color:red;
+}
+
+p[target=intro]{
+    color:blue;
+}
+#title{
+    text-align: center;
+}
+
+#about{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.country_list .country_name{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.pic{
+    width: 50%;
+}
+p::first-letter{
+    /* background-color:orange ; */
+    font-size: 150%;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 650px) {
+    body{
+      background-color: gray;
+    }
+}
+
+p + ol > li {
+    font-weight: bold;
+}
