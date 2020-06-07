@@ -2,9 +2,13 @@
 <html>
     <head>
         <title>Picture 2 Page</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <table id="table">
@@ -24,13 +28,20 @@
             </tr>
         </table>
         <h1 id="title">Welcome to Picture 2 Page</h1>
-        <img class="pic col-lg-8 col-sm-12" src="pics/IMG_3859.jpg">
-        <br/><br/><br/>
-        <p class="description col-lg-4 col-sm-9">
-            The above picture was clicked by me on my DSLR last year. The picture shown has Lord Shiva, his wife Goddess Parvati, and their son Lord Ganesh riding on their ride Nandi accompanied by their elder son Kartikeya and Naradji. <br/>
-            The picture was shot in the city of Vadodara in India where the marriage of Lord Shiva and Goddess Parvati is celebrated yearly on the day of Maha Shivratri by taking out their idols and taking the round of the city. This symbolises 
-            that god occasionally takes rounds of the cities to see how the common people and devotees are doing.
-            
-        </p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 border">
+                    <img class="pic" src="pics/IMG_3859.jpg">
+                    <!-- <br/><br/><br/>  -->
+                </div> 
+                <div class="col-lg-4 border">
+                    <p class="description">
+                    The above picture was clicked by me on my DSLR last year. The picture shown has Lord Shiva, his wife Goddess Parvati, and their son Lord Ganesh riding on their ride Nandi accompanied by their elder son Kartikeya and Naradji. <br/>
+                    The picture was shot in the city of Vadodara in India where the marriage of Lord Shiva and Goddess Parvati is celebrated yearly on the day of Maha Shivratri by taking out their idols and taking the round of the city. This symbolises 
+                    that god occasionally takes rounds of the cities to see how the common people and devotees are doing.
+                    </p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

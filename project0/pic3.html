@@ -2,9 +2,14 @@
 <html>
     <head>
         <title>Picture 3 Page</title>
-        <link rel="stylesheet" href="css/style.css">
-        <<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <table id="table">
@@ -24,11 +29,19 @@
             </tr>
         </table>
         <h1 id="title">Welcome to Picture 3 Page</h1>
-        <img class="pic" src="pics/IMG_1363.jpg">
-        <br/><br/><br/>
-        <p class="description">
-            The above picture was clicked by me on my point and shoot camera few years ago. The bird in the above picture is an shikra, which is a bird and eats small birds(like sparrows, etc) and small animals for food.<br/>
-            It is one of the birds in the category of "birds of prey".
-        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 border">
+                    <img class="pic" src="pics/IMG_1363.jpg">
+                    <!-- <br/><br/><br/>  -->
+                </div> 
+                <div class="col-lg-5 border">
+                    <p class="description">
+                        The above picture was clicked by me on my point and shoot camera few years ago. The bird in the above picture is an shikra, which is a bird and eats small birds(like sparrows, etc) and small animals for food.<br/>
+                        It is one of the birds in the category of "birds of prey".
+                    </p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
