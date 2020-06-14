@@ -9,34 +9,40 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="scss/variables.css"> -->
     </head>
     <body>
         <table id="table">
-            <tr>
-                <td>
-                    <a class="link" href="index.html">Homepage</a>
+            <tr class="row">
+                <td class="col-lg-3 col-sm-12">
+                    <!-- <a class="link" href="index.html">Homepage</a> -->
+                    <button type="button" class="button button-primary" onclick="window.location.href='index.html'">Homepage</button>
                 </td>
-                <td>
-                    <a class="link" href="pic1.html">Link to pic 1</a>
+                <td class="col-lg-3 col-sm-12">
+                    <!-- <a class="link" href="pic1.html">Link to pic 1</a> -->
+                    <button type="button" class="button button-primary" onclick="window.location.href='pic1.html'">Picture 1</button>
                 </td>
-                <td>    
-                    <a class="link" href="pic2.html">Link to pic 2</a>
+                <td class="col-lg-3 col-sm-12">    
+                    <!-- <a class="link" href="pic2.html">Link to pic 2</a> -->
+                    <button type="button" class="button button-primary" onclick="window.location.href='pic2.html'">Picture 2</button>
                 </td>
-                <td>    
-                    <a class="link" href="pic3.html">Link to pic 3</a>
+                <td class="col-lg-3 col-sm-12">    
+                    <!-- <a class="link" href="pic3.html">Link to pic 3</a> -->
+                    <button type="button" class="button button-primary" onclick="window.location.href='pic3.html'">Picture 3</button>
                 </td>
             </tr>
         </table>
-        <h1 id="title">Welcome to Picture 2 Page</h1>
-        <div class="container-fluid">
+        <br/>
+        <h1 class="alert alert-success" id="title">Picture 2</h1>
+        <div class="container">
             <div class="row">
-                <div class="col-lg-7 border">
-                    <img class="pic" src="pics/IMG_3859.jpg">
+                <div class="img col-lg-7 border border-secondary">
+                    <img style="width: 100%;" style="width: 100%;" src="pics/IMG_3990.jpg">
                     <!-- <br/><br/><br/>  -->
                 </div> 
-                <div class="col-lg-4 border">
+                <div class="col-lg-4 border border-secondary">
                     <p class="description">
-                    The above picture was clicked by me on my DSLR last year. The picture shown has Lord Shiva, his wife Goddess Parvati, and their son Lord Ganesh riding on their ride Nandi accompanied by their elder son Kartikeya and Naradji. <br/>
+                    The above picture was clicked by me on my DSLR in 2019. The picture shown has Lord Shiva, his wife Goddess Parvati, and their son Lord Ganesh riding on their ride Nandi accompanied by their elder son Kartikeya and Naradji. <br/>
                     The picture was shot in the city of Vadodara in India where the marriage of Lord Shiva and Goddess Parvati is celebrated yearly on the day of Maha Shivratri by taking out their idols and taking the round of the city. This symbolises 
                     that god occasionally takes rounds of the cities to see how the common people and devotees are doing.
                     </p>

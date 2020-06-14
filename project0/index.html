@@ -2,31 +2,40 @@
 <html>
     <head>
         <title>Homepage</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="scss/variables.css"> -->
     </head>
-    <body id="body">
+    <body>
         <table id="table">
-            <tr>
-                <td>
-                    <a class="link" href="index.html">Homepage</a>
+            <tr class="row">
+                <td class="col-lg-3 col-sm-12">
+                    <!-- <a class="link" href="index.html">Homepage</a> -->
+                    <button type="button" class="button button-primary" onclick="window.location.href='index.html'">Homepage</button>
                 </td>
-                <td>
-                    <a class="link" href="pic1.html">Link to pic 1</a>
+                <td class="col-lg-3 col-sm-12">
+                    <!-- <a class="link" href="pic1.html">Link to pic 1</a> -->
+                    <button type="button" class="button button-primary" onclick="window.location.href='pic1.html'">Picture 1</button>
                 </td>
-                <td>    
-                    <a class="link" href="pic2.html">Link to pic 2</a>
+                <td class="col-lg-3 col-sm-12">    
+                    <!-- <a class="link" href="pic2.html">Link to pic 2</a> -->
+                    <button type="button" class="button button-primary" onclick="window.location.href='pic2.html'">Picture 2</button>
                 </td>
-                <td>    
-                    <a class="link" href="pic3.html">Link to pic 3</a>
+                <td class="col-lg-3 col-sm-12">    
+                    <!-- <a class="link" href="pic3.html">Link to pic 3</a> -->
+                    <button type="button" class="button button-primary" onclick="window.location.href='pic3.html'">Picture 3</button>
                 </td>
             </tr>
-        </table>
-        <h1 id="title">Welcome to my Website</h1>
+        </table><br/>
+        <h1 class="alert alert-success" id="title">Welcome to my Website</h1>
         <h3 id="about">About me:</h3>
         <p target="intro">
-            My name is Aunsh Patel. Apart from coding, I love doing photography and it is my most favourite hobby.
+            My name is Aunsh Patel. Apart from coding, I love photography and it is my most favourite hobby.
         </p>
         <p id="first_para">
             I have done my bachelors from my home town, i.e., Vadodara in India. Some of the places where I have done photography are:

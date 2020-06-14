@@ -1,0 +1,10 @@
+// SCSS stylesheet
+$color:white;
+button:hover{
+    background-color:$color;
+}
+@media only screen and (max-width: 650px) {
+    body{
+      background-color:$color !important;
+    }
+}

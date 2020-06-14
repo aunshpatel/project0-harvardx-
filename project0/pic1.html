@@ -8,35 +8,42 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        
+        <!-- <link rel="stylesheet" href="scss/variables.css"> -->
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body></body>
+    <body>
         <table id="table">
-            <tr>
-                <td>
-                    <a class="link" href="index.html">Homepage</a>
+            <tr class="row">
+                <td class="col-lg-3 col-sm-12">
+                    <!-- <a class="link" href="index.html">Homepage</a> -->
+                    <button type="button" class="button button-primary" onclick="window.location.href='index.html'">Homepage</button>
                 </td>
-                <td>
-                    <a class="link" href="pic1.html">Link to pic 1</a>
+                <td class="col-lg-3 col-sm-12">
+                    <!-- <a class="link" href="pic1.html">Link to pic 1</a> -->
+                    <button type="button" class="button button-primary" onclick="window.location.href='pic1.html'">Picture 1</button>
                 </td>
-                <td>    
-                    <a class="link" href="pic2.html">Link to pic 2</a>
+                <td class="col-lg-3 col-sm-12">    
+                    <!-- <a class="link" href="pic2.html">Link to pic 2</a> -->
+                    <button type="button" class="button button-primary" onclick="window.location.href='pic2.html'">Picture 2</button>
                 </td>
-                <td>    
-                    <a class="link" href="pic3.html">Link to pic 3</a>
+                <td class="col-lg-3 col-sm-12">    
+                    <!-- <a class="link" href="pic3.html">Link to pic 3</a> -->
+                    <button type="button" class="button button-primary" onclick="window.location.href='pic3.html'">Picture 3</button>
                 </td>
             </tr>
         </table>
-        <h1 id="title">Welcome to Picture 1 Page</h1>
+        <br/>
+        <h1 class="alert alert-success" id="title">Picture 1</h1>
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 border">
-                    <img class="pic" src="pics/IMG_0199.jpg">
+                <div class="img col-lg-7 border border-secondary">
+                    <img style="width: 100%;" src="pics/IMG_0199.jpg">
                     <!-- <br/><br/><br/>  -->
                 </div> 
-                <div class="col-lg-5 border">
+                <div class="col-lg-5 border border-secondary">
                     <p class="description">
-                    The above picture was clicked by me on my DSLR recenty. The bird in the above picture is a peacock, which is a bird that eats insects and small animals for food. It is also the national bird of India.<br/>
+                    The above picture was clicked by me on my DSLR recenty(in May, 2020). The bird in the above picture is a peacock, which is a bird that eats insects and small animals for food. It is also the national bird of India.<br/>
                     A peacock is considered sacred in Indian mythology.
                     </p>
                 </div>
