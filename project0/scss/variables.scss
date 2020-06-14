@@ -1,10 +1,19 @@
 // SCSS stylesheet
-$color:white;
-button:hover{
-    background-color:$color;
+$color:red;
+.h1,.h2,.h3,.h4,.h5,.h6{
+  font-weight:bold;
+  text-decoration: underline;
+  color:$color;
 }
-@media only screen and (max-width: 650px) {
-    body{
-      background-color:$color !important;
-    }
+
+table{
+  .btn:hover{
+    background-color:$color;
+  }
+  border:1px solid black;
+  border-collapse: collapse;
+}
+tr,td,th {
+  @extend table;
+  text-align: center;
 }

@@ -6,10 +6,10 @@
 body{
     background-color: #87CEFA !important;
 } 
-h1,h2,h3,h4,h5,h6{
+/* h1,h2,h3,h4,h5,h6{
     font-weight:bold;
     color:red;
-}
+} */
 
 h1{
     font-size: 36px;
@@ -29,11 +29,12 @@ h5{
 h6{
     font-size: 12px;
 }
-table,tr,td,th {
+/* moved to scss file */
+/* table,tr,td,th {
     border:1px solid black;
     text-align: center;
     border-collapse: collapse;
-}
+} */
 th{
     text-decoration: underline;
     font-weight: bold;
@@ -43,9 +44,9 @@ th{
     /* height:100%; */
 }
 /* button:hover moved to scss file */
-button:hover{
+/* button:hover{
     background-color:white;
-}
+} */
 
 p[target=intro]{
     color:blue;
@@ -73,7 +74,7 @@ p::first-letter{
     font-size: 150%;
     font-weight: bold;
 }
-/* @media moved to scss file */
+
 @media only screen and (max-width: 650px) {
     body{
       background-color: white !important;
