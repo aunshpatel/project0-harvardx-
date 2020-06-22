@@ -10,10 +10,12 @@ table{
   .btn:hover{
     background-color:$color;
   }
-  border:1px solid black;
-  border-collapse: collapse;
+  
 }
 tr,td,th {
   @extend table;
   text-align: center;
+  border:1px solid black;
+  border-collapse: collapse;
+  // padding-left: ;
 }

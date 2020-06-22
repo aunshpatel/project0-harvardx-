@@ -3,13 +3,12 @@
   text-decoration: underline;
   color: red; }
 
-table, tr, td, th {
-  border: 1px solid black;
-  border-collapse: collapse; }
-  table .btn:hover, tr .btn:hover, td .btn:hover, th .btn:hover {
-    background-color: red; }
+table .btn:hover, tr .btn:hover, td .btn:hover, th .btn:hover {
+  background-color: red; }
 
 tr, td, th {
-  text-align: center; }
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse; }
 
 /*# sourceMappingURL=variables.css.map */
