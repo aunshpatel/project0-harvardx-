@@ -67,6 +67,7 @@ p[target=intro]{
 
 .img{
     padding:10px !important;
+    /* width:100%; */
 }
 
 p::first-letter{
